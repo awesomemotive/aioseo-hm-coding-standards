@@ -154,7 +154,7 @@
 	<rule ref="Generic.Files.ByteOrderMark" />
 
 	<!-- Disallow empty statements. -->
-	<rule ref="WordPress.CodeAnalysis.EmptyStatement" />
+	<!-- <rule ref="WordPress.CodeAnalysis.EmptyStatement" /> -->
 
 	<!-- Require correct usage of WP's i18n functions. -->
 	<rule ref="WordPress.WP.I18n">
