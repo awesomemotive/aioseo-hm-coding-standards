@@ -2,6 +2,7 @@
 
 namespace HM\Sniffs\Security;
 
+use AllowDynamicProperties;
 use HM\Sniffs\ExtraSniffCode;
 use PHP_CodeSniffer\Files\File as PhpcsFile;
 use WordPressCS\WordPress\Sniffs\Security\EscapeOutputSniff as WPCSEscapeOutputSniff;
@@ -14,6 +15,7 @@ use WordPressCS\WordPress\Sniffs\Security\EscapeOutputSniff as WPCSEscapeOutputS
  *
  * @see https://github.com/WordPress/WordPress-Coding-Standards/issues/1864
  */
+#[AllowDynamicProperties]
 class EscapeOutputSniff extends WPCSEscapeOutputSniff {
 	use ExtraSniffCode;
 
