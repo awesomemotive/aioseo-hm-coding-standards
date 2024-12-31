@@ -26,7 +26,7 @@
 
 		<!-- We like short arrays and ternaries around here -->
 		<exclude name="Generic.Arrays.DisallowShortArraySyntax" />
-		<exclude name="WordPress.PHP.DisallowShortTernary" />
+		<!-- <exclude name="WordPress.PHP.DisallowShortTernary" /> -->
 
 		<!--
 		OK, real talk right now. Yoda conditions are ridiculous.
@@ -78,11 +78,11 @@
 			<property name="customPropertiesWhitelist" type="array">
 				<!-- DOMDocument::$documentElement -->
 				<element value="documentElement" />
-				<!-- DOMElement::$childElementCount -->				
+				<!-- DOMElement::$childElementCount -->             
 				<element value="childElementCount" />
 				<!-- DOMElement::$parentNode -->
 				<element value="parentNode" />
-				<!-- DOMNode::$childNodes -->				
+				<!-- DOMNode::$childNodes -->               
 				<element value="childNodes" />
 			</property>
 		</properties>
