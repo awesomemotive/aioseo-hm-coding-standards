@@ -9,7 +9,7 @@
 		"php": ">=7.4",
 		"wp-coding-standards/wpcs": "^3.3",
 		"fig-r/psr2r-sniffer": "^2.3",
-		"phpcompatibility/phpcompatibility-wp": "dev-master",
+		"phpcompatibility/phpcompatibility-wp": "2.1.8",
 		"dealerdirect/phpcodesniffer-composer-installer": "^1.2.0"
 	},
 	"config": {
